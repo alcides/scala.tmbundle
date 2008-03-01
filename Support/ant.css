@@ -1,6 +1,8 @@
 body {
-   font-family: "Lucida Grande", sans-serif;
+   font-family: "Monaco", "Lucida Grande", sans-serif;
    font-size: 10px;
+   background: black;
+   color: #fff;
 }
 
 a {
