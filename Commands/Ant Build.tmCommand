@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
@@ -8,18 +8,18 @@
 	<string>cd "$TM_DIRECTORY"
 export JAVA_HOME=${TM_JAVA_HOME:-/System/Library/Frameworks/JavaVM.framework/Home}
 export SCALA_HOME=${TM_SCALA_HOME:-/usr/local/share/scala}
-ant -s build.xml dist 2&gt;&amp;1 | "$TM_BUNDLE_SUPPORT/bin/htmlize_ant.py" </string>
+"$TM_BUNDLE_SUPPORT/bin/htmlize_ant.rb"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>@d</string>
+	<string>@b</string>
 	<key>name</key>
-	<string>Deploy</string>
+	<string>Ant Build</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
 	<string>source.scala, text.xml</string>
 	<key>uuid</key>
-	<string>AD7F4739-E2B4-496C-A064-CB96153F3C82</string>
+	<string>7CB22D39-5142-43EA-89C9-7D9C00B77EF5</string>
 </dict>
 </plist>

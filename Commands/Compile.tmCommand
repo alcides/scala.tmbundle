@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
-	<string>saveActiveFile</string>
+	<string>nop</string>
 	<key>command</key>
-	<string>scala -savecompiled "$TM_FILEPATH"
+	<string>scalac "$TM_FILEPATH"
 </string>
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>
-	<string>@r</string>
+	<string>@b</string>
 	<key>name</key>
-	<string>Run Script</string>
+	<string>Compile</string>
 	<key>output</key>
 	<string>openAsNewDocument</string>
 	<key>scope</key>
 	<string>source.scala</string>
 	<key>uuid</key>
-	<string>8067567B-7B6D-4C3D-9D21-20485C5C51A1</string>
+	<string>EAD3249B-58D9-47A9-996B-3C0F2FF6E172</string>
 </dict>
 </plist>
