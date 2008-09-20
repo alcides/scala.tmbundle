@@ -12,7 +12,7 @@ export SCALA_HOME=${TM_SCALA_HOME:-/usr/local/share/scala}
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>@r</string>
+	<string>R</string>
 	<key>name</key>
 	<string>Ant Run</string>
 	<key>output</key>
